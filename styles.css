@@ -1,0 +1,124 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
+
+.menu-principal {
+    margin: 0 8em;
+    text-align: center;
+}
+
+.menu-title {
+    margin-bottom: 10px;
+  
+}
+
+.menu-img {
+    margin: 15px 5em 15px 5em;
+}
+
+
+.menu-anchor {
+    display: block;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+
+    height: 3em;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu-paragraph {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+}
+
+/* SECTION "PLATFORMS" DISPONÍVEIS PARA O ACESSO AO ALURA */
+
+.menu-platforms {
+    display: flex;
+    align-items: center;
+    height: 100vh;   
+}
+
+.div-img-platforms {
+    width: 60%;
+    margin: 0 3em;
+}
+
+.platforms-text {
+    width: 50%;
+    height: 2em;
+}
+
+.platforms-title {
+    font-size: 2em;
+}
+
+.platforms-paragraph {
+   color: var(--cinza-secundario);
+   font-family: var(--fonte-principal); 
+}
+
+/* SECTION "SCREENS" DISPONÍVEIS PARA O ACESSO */
+
+.menu-screens {
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+}
+
+.screens-text {
+    width: 50%;
+}
+
+.screens-paragraph {
+    margin: 1.5em 6em;
+}
+
+.screens-anchor {
+    color: var(--branco-principal);
+    font-weight: 400;
+    text-decoration: none;
+    background-color: var(--botao-azul);
+    padding: 10px;
+    margin: 0 6em;
+}
+
+.img-telas {
+    width: 50%;
+    height: 100vh;
+}
