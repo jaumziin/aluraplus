@@ -1,2 +1,2 @@
-# aluraplus
-Development... rs
+# Desenvolvendo o projeto Alura+ (Alura Plus)
+Neste "README" demonstro a minha ambição por aprender novos códigos, em geral HTML/CSS, no projeto que estou desenvolvendo coloco em prática o que aprendi nas últimas semanas onde abrange o CSS FLEXBOX, comportamentos das propriedades CSS em diferentes elementos HTML, a sintaxe de ambas as linguagens de marcação e estilização, em um futuro breve começarei com JAVASCRIPT para implementar também nos meus futuros projetos dos quais desejo desenvolver do *zero*. 
