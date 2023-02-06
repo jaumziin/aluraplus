@@ -70,22 +70,28 @@ body {
 
 .menu-platforms {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;   
 }
 
 .div-img-platforms {
+    width: 50%;
+}
+
+.img-platforms {
     width: 60%;
-    margin: 0 3em;
+    margin: 0 20vh;
 }
 
 .platforms-text {
     width: 50%;
     height: 2em;
+    margin: 0 10vh;
 }
 
 .platforms-title {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .platforms-paragraph {
@@ -96,29 +102,41 @@ body {
 /* SECTION "SCREENS" DISPONÍVEIS PARA O ACESSO */
 
 .menu-screens {
-    width: 50%;
-    height: 100vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    height: 100vh;
+    
 }
 
 .screens-text {
     width: 50%;
+    margin: 0 20vh 0 0;
 }
 
 .screens-paragraph {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: var(--cinza-secundario);
     margin: 1.5em 6em;
 }
 
 .screens-anchor {
+    background-color: var(--botao-azul);
     color: var(--branco-principal);
     font-weight: 400;
     text-decoration: none;
-    background-color: var(--botao-azul);
-    padding: 10px;
-    margin: 0 6em;
+    
+    margin: 0 7em;
+    padding: 15px;
+    border-radius: 1vh;
 }
 
-.img-telas {
+.div-screens-img {
     width: 50%;
-    height: 100vh;
+}
+
+.img-screens {
+    width: 75%;
 }
