@@ -103,10 +103,7 @@ body {
 
 .menu-screens {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 100vh;
-    
 }
 
 .screens-text {
@@ -134,9 +131,13 @@ body {
 }
 
 .div-screens-img {
-    width: 50%;
+    width: 100%;
 }
 
-.img-screens {
-    width: 75%;
+/* SEÇÃO DE DOWNLOADS DO CURSO */
+
+.download-courses {
+    display: flex;
+    width: 100%;
+    height: 100vh;
 }
