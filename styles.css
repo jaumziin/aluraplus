@@ -197,3 +197,33 @@ body {
 }
 
 /* INICIALIZANDO - SEÇÃO FOOTER  */
+
+.div-img-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.unorderlist-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 3em 2em 3em;
+    list-style-type: none;
+}
+
+.anchor-footer {
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.anchor-footer:hover {
+    font-size: 20px;
+}
+
+.paragraph-footer {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    text-align: center;
+    margin: 0 3em 0 3em;
+    line-height: 2em;
+}
+
