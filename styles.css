@@ -48,17 +48,30 @@ body {
     margin: 15px 5em 15px 5em;
 }
 
-
 .menu-anchor {
-    display: block;
+    display: flex;
+    justify-content: center;
     background-color: var(--botao-azul);
+    
     color: var(--branco-principal);
+    font-size: 18px;
     text-decoration: none;
-
-    height: 3em;
-    margin-bottom: 10px;
+    
+    width: 70%;
+    margin: 10px 90px;
+    padding: 2vh;
     border: none;
     border-radius: 5px;
+}
+
+.menu-anchor:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.alura {
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
 }
 
 .menu-paragraph {
@@ -132,6 +145,11 @@ body {
     border-radius: 1vh;
 }
 
+.screens-anchor:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .div-screens-img {
     width: 50%;
 }
@@ -173,7 +191,7 @@ body {
 /* SEÇÃO MINIMALISTA DE DISPOSITIVOS DISPONÍVEIS FAVORITOS */
 
 .devices-favorites {
-    height: 75vh;
+    height: 50vh;
 }
 
 .devices-title {
@@ -198,12 +216,16 @@ body {
 
 /* INICIALIZANDO - SEÇÃO FOOTER  */
 
+footer {
+    height: 30vh;
+}
+
 .div-img-footer {
     display: flex;
     justify-content: center;
 }
 
-.unorderlist-footer {
+.ul-footer {
     display: flex;
     justify-content: space-around;
     margin: 10vh 3em 2em 3em;
@@ -216,7 +238,7 @@ body {
 }
 
 .anchor-footer:hover {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .paragraph-footer {
